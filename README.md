@@ -36,13 +36,9 @@ L’application récupère la liste des produits enregistrés dans la base de do
 
 Cette étape permet de configurer une connexion à la base de données H2 en utilisant le driver `org.h2.Driver` et l’URL JDBC `jdbc:h2:mem:testdb`. La base de données est utilisée en mode mémoire pour stocker temporairement les données de l’application.
 
-## 6. Interface H2 Database
 
-<img width="1357" height="547" alt="db1" src="https://github.com/user-attachments/assets/81233b10-682e-4d97-bace-0601c2357a43" />
 
-Cette interface permet de consulter et de manipuler la base de données `jdbc:h2:mem:testdb`. Elle permet notamment d’exécuter des requêtes SQL pour créer, insérer, consulter, modifier et supprimer des données dans les tables. Ici, la table `PRODUIT` est visible dans la base de données.
-
-## 7. Consultation de la base de données H2
+## 6. Consultation de la base de données H2
 
 <img width="1362" height="640" alt="Capture d'écran 2026-10-06 194459" src="https://github.com/user-attachments/assets/7b90d37e-ffc2-4916-959f-1d2d613e1a74" />
 
