@@ -16,7 +16,8 @@ Hibernate génère automatiquement les requêtes SQL `INSERT` afin d’ajouter l
 
 ## 3. Récupération des produits avec Hibernate
 
-<img width="652" height="343" alt="Capture d'écran 2026-10-06 205237" src="https://github.com/user-attachments/assets/7a92830b-754e-4b90-b268-7a847a160e49" />
+<img width="521" height="253" alt="image" src="https://github.com/user-attachments/assets/d5811326-331e-4138-a283-78379013a729" />
+
 
 Hibernate génère automatiquement une requête SQL `SELECT` pour récupérer les informations des produits enregistrés dans la table `Produit`, notamment leur identifiant, leur nom et leur prix.
 
