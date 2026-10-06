@@ -22,14 +22,16 @@ Hibernate génère automatiquement une requête SQL `SELECT` pour récupérer le
 
 ## 4. Affichage et recherche des produits
 
-<img width="458" height="177" alt="Capture d&#39;écran 2026-10-06 205249" src="https://github.com/user-attachments/assets/efe940ff-de27-4576-a37e-87ed3251fce2" />
+<img width="1013" height="417" alt="image" src="https://github.com/user-attachments/assets/2d22d0ae-3d3c-42ab-9116-0fabac1d8f13" />
+
 
 
 L’application récupère la liste des produits enregistrés dans la base de données et affiche leurs informations : identifiant, nom et prix. Elle permet également de rechercher un produit spécifique à partir de son identifiant. Dans cet exemple, le produit ayant l’ID 1 est correctement retrouvé et affiché.
 
 ## 5. Connexion à la base de données H2
 
-<img width="1139" height="287" alt="Capture d'écran 2026-10-06 205359" src="https://github.com/user-attachments/assets/b72652d0-e51e-4afa-9b7e-0c8308e84793" />
+<img width="1357" height="547" alt="db1" src="https://github.com/user-attachments/assets/c21f96cb-4c42-4ca6-a0a6-24905707121c" />
+
 
 Cette étape permet de configurer une connexion à la base de données H2 en utilisant le driver `org.h2.Driver` et l’URL JDBC `jdbc:h2:mem:testdb`. La base de données est utilisée en mode mémoire pour stocker temporairement les données de l’application.
 
