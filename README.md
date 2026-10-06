@@ -42,6 +42,7 @@ Cette étape permet de configurer une connexion à la base de données H2 en uti
 
 <img width="1362" height="640" alt="Capture d'écran 2026-10-06 194459" src="https://github.com/user-attachments/assets/7b90d37e-ffc2-4916-959f-1d2d613e1a74" />
 
-L’interface H2 permet de se connecter à la base `jdbc:h2:mem:testdb` et d’exécuter des requêtes SQL. Elle permet de consulter la table `PRODUIT` et de réaliser différentes opérations comme la création, l’insertion, la consultation, la modification et la suppression des données.
 
 <img width="1362" height="642" alt="Capture d'écran 2026-10-06 194538" src="https://github.com/user-attachments/assets/dc1cbc3f-81f2-4bff-9ada-a3054342a6b4" />
+
+L’interface H2 permet de se connecter à la base `jdbc:h2:mem:testdb` et d’exécuter des requêtes SQL. Elle permet de consulter la table `PRODUIT` et de réaliser différentes opérations comme la création, l’insertion, la consultation, la modification et la suppression des données.
