@@ -22,7 +22,8 @@ Hibernate génère automatiquement une requête SQL `SELECT` pour récupérer le
 
 ## 4. Affichage et recherche des produits
 
-<img width="458" height="177" alt="Capture d'écran 2026-10-06 205249" src="https://github.com/user-attachments/assets/400b5f96-5439-4274-ac62-087c7ec244d7" />
+<img width="458" height="177" alt="Capture d&#39;écran 2026-10-06 205249" src="https://github.com/user-attachments/assets/efe940ff-de27-4576-a37e-87ed3251fce2" />
+
 
 L’application récupère la liste des produits enregistrés dans la base de données et affiche leurs informations : identifiant, nom et prix. Elle permet également de rechercher un produit spécifique à partir de son identifiant. Dans cet exemple, le produit ayant l’ID 1 est correctement retrouvé et affiché.
 
@@ -34,7 +35,7 @@ Cette étape permet de configurer une connexion à la base de données H2 en uti
 
 ## 6. Interface H2 Database
 
-<img width="1357" height="547" alt="db1" src="https://github.com/user-attachments/assets/0ad58031-bf0a-475b-b826-f40f8dd1000f" />
+<img width="1357" height="547" alt="db1" src="https://github.com/user-attachments/assets/81233b10-682e-4d97-bace-0601c2357a43" />
 
 Cette interface permet de consulter et de manipuler la base de données `jdbc:h2:mem:testdb`. Elle permet notamment d’exécuter des requêtes SQL pour créer, insérer, consulter, modifier et supprimer des données dans les tables. Ici, la table `PRODUIT` est visible dans la base de données.
 
